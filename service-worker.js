@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/online_pizza_app/precache-manifest.8ab0461fb888ffb101ef2feaa1fc89f0.js"
+  "/react_firebase_pizzastore_app/precache-manifest.8daef68663218544bde96b88725d87c0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/online_pizza_app/index.html", {
+workbox.routing.registerNavigationRoute("/react_firebase_pizzastore_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
