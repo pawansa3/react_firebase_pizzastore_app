@@ -1,0 +1,170 @@
+body {
+    background: url("images/body-bg.jpg") center top no-repeat;
+}
+
+.slogan {
+    text-align: center;
+    font-family:verdana;
+    font-size:13px;
+    color:#fff;
+}
+
+.supreme {
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: #efdbb6;
+}
+.error {
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: #efdbb6;
+    /* background: #dc3545; */
+    padding: 20px;
+}
+
+/* ul items */
+.list-group {
+    text-align: center;
+}
+.list-group-item {
+    background:transparent;
+    padding:0;
+    border:0;
+}
+
+.supreme_title {
+    color:gray;font-size:10px;
+}
+.line {border: 1px dashed gray;}
+.pizza_name {
+    color:#fff;font-size:18px;
+}
+
+.pizza_desc {
+    color:gray;font-size:14px;
+}
+.pizza_size {
+    color:#fff;font-size:16px;
+}
+
+.pizza_price {
+    color:#fff;font-size:20px;
+}
+.pizza_add {
+    background:url("images/btn-bg.png") left top no-repeat;
+    background-size:100% 100%;
+    color:#fff;   
+    border:0;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight: bold;
+    line-height:2;
+    padding:3px 20px;
+}
+
+.textColor {
+    color: white;
+    text-align: center;
+}
+
+/* cart & table */
+h4 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+th {
+    color: #ffffff80;
+}
+#mark-non-veg {
+    background:url(images/non-veg.png) no-repeat;
+}
+
+#mark-veg {
+    background:url(images/veg.png) no-repeat;
+}
+
+.remove_btn {
+    color:white;padding:90px 0;font-size:15px;
+}
+
+.order_total {
+    color:#fff;font-size:20px;
+    font-family: verdana;
+}
+.checkout {
+    background:url(images/btn-bg.png) left top no-repeat;
+    background-size:100% 100%;
+    color:#fff;
+    border:0;
+    text-decoration:none;
+    text-transform:uppercase;
+    line-height:2.5;
+    padding:3px 20px;
+    font-weight: bold;
+}
+
+.counter {
+    display: flex;
+    width: 100%;
+  }
+
+.counter-action {
+    border: none;
+    font-size: 1.15em;
+    font-weight: bold;
+    background-color: #DCDCDC;
+    display: block;
+    padding: 8px 8px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .counter-action:hover {
+    color: #fff;
+  }
+
+  .increment:hover {
+    background: #83D97C;
+  }
+
+  .decrement:hover {
+    background: #EF5350;
+  }
+  .counter-score {
+    flex-grow: 0.5;
+    text-align: center;
+    font-family: verdana;
+    font-size: 2em;
+    line-height: 2em;
+    color: #fff;
+  }
+
+.login {
+    width: 200px;
+}
+
+button.gmail,
+input[type=submit].gmail {
+  border: 0;
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: #fff;
+  padding: 1rem;
+}
+
+button.gmail,
+input[type=submit].gmail {
+  background: #e44134;
+}
+button.gmail:after,
+input[type=submit].gmail:after {
+  background: #cc4033;
+}
